@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B668E824E58A1A009D258E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668E724E58A1A009D258E /* AppDelegate.m */; };
+		77B668EB24E58A1A009D258E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668EA24E58A1A009D258E /* SceneDelegate.m */; };
+		77B668EE24E58A1A009D258E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668ED24E58A1A009D258E /* ViewController.m */; };
+		77B668F124E58A1A009D258E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B668EF24E58A1A009D258E /* Main.storyboard */; };
+		77B668F324E58A1D009D258E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B668F224E58A1D009D258E /* Assets.xcassets */; };
+		77B668F624E58A1D009D258E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B668F424E58A1D009D258E /* LaunchScreen.storyboard */; };
+		77B668F924E58A1D009D258E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668F824E58A1D009D258E /* main.m */; };
+		77B6690324E58A1D009D258E /* DromTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6690224E58A1D009D258E /* DromTestTests.m */; };
+		77B6690E24E58A1D009D258E /* DromTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6690D24E58A1D009D258E /* DromTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B668FF24E58A1D009D258E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B668DB24E58A1A009D258E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B668E224E58A1A009D258E;
+			remoteInfo = DromTest;
+		};
+		77B6690A24E58A1D009D258E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B668DB24E58A1A009D258E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B668E224E58A1A009D258E;
+			remoteInfo = DromTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77B668E324E58A1A009D258E /* DromTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B668E624E58A1A009D258E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77B668E724E58A1A009D258E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77B668E924E58A1A009D258E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		77B668EA24E58A1A009D258E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		77B668EC24E58A1A009D258E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77B668ED24E58A1A009D258E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77B668F024E58A1A009D258E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B668F224E58A1D009D258E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77B668F524E58A1D009D258E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77B668F724E58A1D009D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B668F824E58A1D009D258E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77B668FE24E58A1D009D258E /* DromTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DromTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B6690224E58A1D009D258E /* DromTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DromTestTests.m; sourceTree = "<group>"; };
+		77B6690424E58A1D009D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B6690924E58A1D009D258E /* DromTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DromTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B6690D24E58A1D009D258E /* DromTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DromTestUITests.m; sourceTree = "<group>"; };
+		77B6690F24E58A1D009D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B668E024E58A1A009D258E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B668FB24E58A1D009D258E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B6690624E58A1D009D258E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B668DA24E58A1A009D258E = {
+			isa = PBXGroup;
+			children = (
+				77B668E524E58A1A009D258E /* DromTest */,
+				77B6690124E58A1D009D258E /* DromTestTests */,
+				77B6690C24E58A1D009D258E /* DromTestUITests */,
+				77B668E424E58A1A009D258E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B668E424E58A1A009D258E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B668E324E58A1A009D258E /* DromTest.app */,
+				77B668FE24E58A1D009D258E /* DromTestTests.xctest */,
+				77B6690924E58A1D009D258E /* DromTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B668E524E58A1A009D258E /* DromTest */ = {
+			isa = PBXGroup;
+			children = (
+				77B668E624E58A1A009D258E /* AppDelegate.h */,
+				77B668E724E58A1A009D258E /* AppDelegate.m */,
+				77B668E924E58A1A009D258E /* SceneDelegate.h */,
+				77B668EA24E58A1A009D258E /* SceneDelegate.m */,
+				77B668EC24E58A1A009D258E /* ViewController.h */,
+				77B668ED24E58A1A009D258E /* ViewController.m */,
+				77B668EF24E58A1A009D258E /* Main.storyboard */,
+				77B668F224E58A1D009D258E /* Assets.xcassets */,
+				77B668F424E58A1D009D258E /* LaunchScreen.storyboard */,
+				77B668F724E58A1D009D258E /* Info.plist */,
+				77B668F824E58A1D009D258E /* main.m */,
+			);
+			path = DromTest;
+			sourceTree = "<group>";
+		};
+		77B6690124E58A1D009D258E /* DromTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				77B6690224E58A1D009D258E /* DromTestTests.m */,
+				77B6690424E58A1D009D258E /* Info.plist */,
+			);
+			path = DromTestTests;
+			sourceTree = "<group>";
+		};
+		77B6690C24E58A1D009D258E /* DromTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77B6690D24E58A1D009D258E /* DromTestUITests.m */,
+				77B6690F24E58A1D009D258E /* Info.plist */,
+			);
+			path = DromTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B668E224E58A1A009D258E /* DromTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B6691224E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTest" */;
+			buildPhases = (
+				77B668DF24E58A1A009D258E /* Sources */,
+				77B668E024E58A1A009D258E /* Frameworks */,
+				77B668E124E58A1A009D258E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DromTest;
+			productName = DromTest;
+			productReference = 77B668E324E58A1A009D258E /* DromTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77B668FD24E58A1D009D258E /* DromTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B6691524E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTestTests" */;
+			buildPhases = (
+				77B668FA24E58A1D009D258E /* Sources */,
+				77B668FB24E58A1D009D258E /* Frameworks */,
+				77B668FC24E58A1D009D258E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B6690024E58A1D009D258E /* PBXTargetDependency */,
+			);
+			name = DromTestTests;
+			productName = DromTestTests;
+			productReference = 77B668FE24E58A1D009D258E /* DromTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77B6690824E58A1D009D258E /* DromTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B6691824E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTestUITests" */;
+			buildPhases = (
+				77B6690524E58A1D009D258E /* Sources */,
+				77B6690624E58A1D009D258E /* Frameworks */,
+				77B6690724E58A1D009D258E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B6690B24E58A1D009D258E /* PBXTargetDependency */,
+			);
+			name = DromTestUITests;
+			productName = DromTestUITests;
+			productReference = 77B6690924E58A1D009D258E /* DromTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B668DB24E58A1A009D258E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Eduard Dzhumagaliev";
+				TargetAttributes = {
+					77B668E224E58A1A009D258E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					77B668FD24E58A1D009D258E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 77B668E224E58A1A009D258E;
+					};
+					77B6690824E58A1D009D258E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 77B668E224E58A1A009D258E;
+					};
+				};
+			};
+			buildConfigurationList = 77B668DE24E58A1A009D258E /* Build configuration list for PBXProject "DromTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B668DA24E58A1A009D258E;
+			productRefGroup = 77B668E424E58A1A009D258E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B668E224E58A1A009D258E /* DromTest */,
+				77B668FD24E58A1D009D258E /* DromTestTests */,
+				77B6690824E58A1D009D258E /* DromTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77B668E124E58A1A009D258E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B668F624E58A1D009D258E /* LaunchScreen.storyboard in Resources */,
+				77B668F324E58A1D009D258E /* Assets.xcassets in Resources */,
+				77B668F124E58A1A009D258E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B668FC24E58A1D009D258E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B6690724E58A1D009D258E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B668DF24E58A1A009D258E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B668EE24E58A1A009D258E /* ViewController.m in Sources */,
+				77B668E824E58A1A009D258E /* AppDelegate.m in Sources */,
+				77B668F924E58A1D009D258E /* main.m in Sources */,
+				77B668EB24E58A1A009D258E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B668FA24E58A1D009D258E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B6690324E58A1D009D258E /* DromTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B6690524E58A1D009D258E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B6690E24E58A1D009D258E /* DromTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77B6690024E58A1D009D258E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B668E224E58A1A009D258E /* DromTest */;
+			targetProxy = 77B668FF24E58A1D009D258E /* PBXContainerItemProxy */;
+		};
+		77B6690B24E58A1D009D258E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B668E224E58A1A009D258E /* DromTest */;
+			targetProxy = 77B6690A24E58A1D009D258E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77B668EF24E58A1A009D258E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B668F024E58A1A009D258E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77B668F424E58A1D009D258E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B668F524E58A1D009D258E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77B6691024E58A1D009D258E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77B6691124E58A1D009D258E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B6691324E58A1D009D258E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77B6691424E58A1D009D258E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77B6691624E58A1D009D258E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DromTest.app/DromTest";
+			};
+			name = Debug;
+		};
+		77B6691724E58A1D009D258E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DromTest.app/DromTest";
+			};
+			name = Release;
+		};
+		77B6691924E58A1D009D258E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DromTest;
+			};
+			name = Debug;
+		};
+		77B6691A24E58A1D009D258E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DromTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DromTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B668DE24E58A1A009D258E /* Build configuration list for PBXProject "DromTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B6691024E58A1D009D258E /* Debug */,
+				77B6691124E58A1D009D258E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B6691224E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B6691324E58A1D009D258E /* Debug */,
+				77B6691424E58A1D009D258E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B6691524E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B6691624E58A1D009D258E /* Debug */,
+				77B6691724E58A1D009D258E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B6691824E58A1D009D258E /* Build configuration list for PBXNativeTarget "DromTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B6691924E58A1D009D258E /* Debug */,
+				77B6691A24E58A1D009D258E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B668DB24E58A1A009D258E /* Project object */;
+}
