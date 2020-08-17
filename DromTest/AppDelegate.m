@@ -6,7 +6,15 @@
 //  Copyright © 2020 Eduard Dzhumagaliev. All rights reserved.
 //
 
+#import "ImagesRepositoryDelegate.h"
+#import "ImagesRepository.h"
+
 #import "AppDelegate.h"
+#import "CollectionViewController.h"
+#import "SwipeRightFlowLayout.h"
+#import "ImagesMemoryStorage.h"
+#import "ImagesNetworkStorage.h"
+#import "AsyncNetworking.h"
 
 @interface AppDelegate ()
 
@@ -15,27 +23,37 @@
 @implementation AppDelegate
 
 
+- (void)setupCache {
+    NSURLCache.sharedURLCache.diskCapacity = 1024 * 1024;
+    NSURLSession.sharedSession.configuration.requestCachePolicy = NSURLRequestReturnCacheDataElseLoad;
+}
+
+- (CollectionViewController *)setupCollectionView {
+    UICollectionViewFlowLayout * flowLayout = [SwipeRightFlowLayout new];
+    //    PhotosMemory * photosMemory = [PhotosMemory new];
+    ImagesNetworkStorage * photosNetwork = [[ImagesNetworkStorage alloc] initWithNetworking:[AsyncNetworking new]];
+    CollectionViewController * rootViewController = [[CollectionViewController alloc] initWithCollectionViewLayout:flowLayout andRepository:photosNetwork];
+    return rootViewController;
+}
+
+- (void)setupNavigationController {
+    CollectionViewController * rootViewController = [self setupCollectionView];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+}
+
+- (void)setupMainWindow {
+    CGRect windowFrame = UIScreen.mainScreen.bounds;
+    UIWindow *theWindow = [[UIWindow alloc] initWithFrame:windowFrame];
+    self.window = theWindow;
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setupCache];
+    [self setupNavigationController];
+    [self setupMainWindow];
     return YES;
 }
-
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
-}
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
-
 
 @end

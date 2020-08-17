@@ -8,14 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		77B668E824E58A1A009D258E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668E724E58A1A009D258E /* AppDelegate.m */; };
-		77B668EB24E58A1A009D258E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668EA24E58A1A009D258E /* SceneDelegate.m */; };
-		77B668EE24E58A1A009D258E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668ED24E58A1A009D258E /* ViewController.m */; };
-		77B668F124E58A1A009D258E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B668EF24E58A1A009D258E /* Main.storyboard */; };
 		77B668F324E58A1D009D258E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B668F224E58A1D009D258E /* Assets.xcassets */; };
 		77B668F624E58A1D009D258E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B668F424E58A1D009D258E /* LaunchScreen.storyboard */; };
 		77B668F924E58A1D009D258E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B668F824E58A1D009D258E /* main.m */; };
 		77B6690324E58A1D009D258E /* DromTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6690224E58A1D009D258E /* DromTestTests.m */; };
 		77B6690E24E58A1D009D258E /* DromTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6690D24E58A1D009D258E /* DromTestUITests.m */; };
+		77B6691D24E59789009D258E /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6691C24E59789009D258E /* CollectionViewController.m */; };
+		77B6692924E5A8E4009D258E /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6692824E5A8E4009D258E /* AsyncImageView.m */; };
+		77B6692C24E5ACD5009D258E /* AsyncImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6692B24E5ACD5009D258E /* AsyncImageViewCell.m */; };
+		77C8C06324E69C84002EC28D /* SwipeRightFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C06224E69C84002EC28D /* SwipeRightFlowLayout.m */; };
+		77C8C07124E6CBF6002EC28D /* ImagesMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07024E6CBF6002EC28D /* ImagesMemoryStorage.m */; };
+		77C8C07224E6DDF1002EC28D /* ImagesMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07024E6CBF6002EC28D /* ImagesMemoryStorage.m */; };
+		77C8C07624E7EDF0002EC28D /* AsyncNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07524E7EDF0002EC28D /* AsyncNetworking.m */; };
+		77C8C07924E7F684002EC28D /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07824E7F684002EC28D /* WebImage.m */; };
+		77C8C07C24E7FA60002EC28D /* ImagesNetworkStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07B24E7FA60002EC28D /* ImagesNetworkStorage.m */; };
+		77C8C07E24E7FFC4002EC28D /* DromTestNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07D24E7FFC4002EC28D /* DromTestNetworkingTests.m */; };
+		77C8C07F24E7FFDD002EC28D /* AsyncNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07524E7EDF0002EC28D /* AsyncNetworking.m */; };
+		77C8C08124E81899002EC28D /* DromTestImageNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C08024E81899002EC28D /* DromTestImageNetworking.m */; };
+		77C8C08224E81903002EC28D /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07824E7F684002EC28D /* WebImage.m */; };
+		77C8C08324E81903002EC28D /* ImagesNetworkStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C07B24E7FA60002EC28D /* ImagesNetworkStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +50,6 @@
 		77B668E324E58A1A009D258E /* DromTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B668E624E58A1A009D258E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77B668E724E58A1A009D258E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77B668E924E58A1A009D258E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		77B668EA24E58A1A009D258E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		77B668EC24E58A1A009D258E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77B668ED24E58A1A009D258E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		77B668F024E58A1A009D258E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77B668F224E58A1D009D258E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B668F524E58A1D009D258E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B668F724E58A1D009D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +60,28 @@
 		77B6690924E58A1D009D258E /* DromTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DromTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B6690D24E58A1D009D258E /* DromTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DromTestUITests.m; sourceTree = "<group>"; };
 		77B6690F24E58A1D009D258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B6691B24E59789009D258E /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		77B6691C24E59789009D258E /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		77B6692724E5A8E4009D258E /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		77B6692824E5A8E4009D258E /* AsyncImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		77B6692A24E5ACD5009D258E /* AsyncImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncImageViewCell.h; sourceTree = "<group>"; };
+		77B6692B24E5ACD5009D258E /* AsyncImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageViewCell.m; sourceTree = "<group>"; };
+		77C8C06124E69C84002EC28D /* SwipeRightFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeRightFlowLayout.h; sourceTree = "<group>"; };
+		77C8C06224E69C84002EC28D /* SwipeRightFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeRightFlowLayout.m; sourceTree = "<group>"; };
+		77C8C06524E6BB4F002EC28D /* ImagesRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesRepository.h; sourceTree = "<group>"; };
+		77C8C06924E6C081002EC28D /* ImagesRepositoryDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesRepositoryDelegate.h; sourceTree = "<group>"; };
+		77C8C06F24E6CBF6002EC28D /* ImagesMemoryStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesMemoryStorage.h; sourceTree = "<group>"; };
+		77C8C07024E6CBF6002EC28D /* ImagesMemoryStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesMemoryStorage.m; sourceTree = "<group>"; };
+		77C8C07424E7EDF0002EC28D /* AsyncNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncNetworking.h; sourceTree = "<group>"; };
+		77C8C07524E7EDF0002EC28D /* AsyncNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncNetworking.m; sourceTree = "<group>"; };
+		77C8C07724E7F684002EC28D /* WebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
+		77C8C07824E7F684002EC28D /* WebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
+		77C8C07A24E7FA60002EC28D /* ImagesNetworkStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesNetworkStorage.h; sourceTree = "<group>"; };
+		77C8C07B24E7FA60002EC28D /* ImagesNetworkStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesNetworkStorage.m; sourceTree = "<group>"; };
+		77C8C07D24E7FFC4002EC28D /* DromTestNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DromTestNetworkingTests.m; sourceTree = "<group>"; };
+		77C8C08024E81899002EC28D /* DromTestImageNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DromTestImageNetworking.m; sourceTree = "<group>"; };
+		77C8C08424E91FD0002EC28D /* WebImageDelegate+WebImageNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebImageDelegate+WebImageNetworking.h"; sourceTree = "<group>"; };
+		77D03F9024E991B900B03E8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +134,16 @@
 			children = (
 				77B668E624E58A1A009D258E /* AppDelegate.h */,
 				77B668E724E58A1A009D258E /* AppDelegate.m */,
-				77B668E924E58A1A009D258E /* SceneDelegate.h */,
-				77B668EA24E58A1A009D258E /* SceneDelegate.m */,
-				77B668EC24E58A1A009D258E /* ViewController.h */,
-				77B668ED24E58A1A009D258E /* ViewController.m */,
-				77B668EF24E58A1A009D258E /* Main.storyboard */,
 				77B668F224E58A1D009D258E /* Assets.xcassets */,
 				77B668F424E58A1D009D258E /* LaunchScreen.storyboard */,
 				77B668F724E58A1D009D258E /* Info.plist */,
 				77B668F824E58A1D009D258E /* main.m */,
+				77C8C07324E7EBF6002EC28D /* Networking */,
+				77C8C06824E6BD26002EC28D /* Data */,
+				77C8C06024E69C6C002EC28D /* Flow Layouts */,
+				77B6692624E5A87B009D258E /* Views */,
+				77B6691E24E5978F009D258E /* View Controllers */,
+				77D03F9024E991B900B03E8D /* README.md */,
 			);
 			path = DromTest;
 			sourceTree = "<group>";
@@ -122,6 +151,8 @@
 		77B6690124E58A1D009D258E /* DromTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				77C8C08024E81899002EC28D /* DromTestImageNetworking.m */,
+				77C8C07D24E7FFC4002EC28D /* DromTestNetworkingTests.m */,
 				77B6690224E58A1D009D258E /* DromTestTests.m */,
 				77B6690424E58A1D009D258E /* Info.plist */,
 			);
@@ -135,6 +166,60 @@
 				77B6690F24E58A1D009D258E /* Info.plist */,
 			);
 			path = DromTestUITests;
+			sourceTree = "<group>";
+		};
+		77B6691E24E5978F009D258E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77B6691B24E59789009D258E /* CollectionViewController.h */,
+				77B6691C24E59789009D258E /* CollectionViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		77B6692624E5A87B009D258E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77B6692724E5A8E4009D258E /* AsyncImageView.h */,
+				77B6692824E5A8E4009D258E /* AsyncImageView.m */,
+				77B6692A24E5ACD5009D258E /* AsyncImageViewCell.h */,
+				77B6692B24E5ACD5009D258E /* AsyncImageViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77C8C06024E69C6C002EC28D /* Flow Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				77C8C06124E69C84002EC28D /* SwipeRightFlowLayout.h */,
+				77C8C06224E69C84002EC28D /* SwipeRightFlowLayout.m */,
+			);
+			path = "Flow Layouts";
+			sourceTree = "<group>";
+		};
+		77C8C06824E6BD26002EC28D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				77C8C08424E91FD0002EC28D /* WebImageDelegate+WebImageNetworking.h */,
+				77C8C06524E6BB4F002EC28D /* ImagesRepository.h */,
+				77C8C06924E6C081002EC28D /* ImagesRepositoryDelegate.h */,
+				77C8C06F24E6CBF6002EC28D /* ImagesMemoryStorage.h */,
+				77C8C07024E6CBF6002EC28D /* ImagesMemoryStorage.m */,
+				77C8C07724E7F684002EC28D /* WebImage.h */,
+				77C8C07824E7F684002EC28D /* WebImage.m */,
+				77C8C07A24E7FA60002EC28D /* ImagesNetworkStorage.h */,
+				77C8C07B24E7FA60002EC28D /* ImagesNetworkStorage.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		77C8C07324E7EBF6002EC28D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				77C8C07424E7EDF0002EC28D /* AsyncNetworking.h */,
+				77C8C07524E7EDF0002EC28D /* AsyncNetworking.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +327,6 @@
 			files = (
 				77B668F624E58A1D009D258E /* LaunchScreen.storyboard in Resources */,
 				77B668F324E58A1D009D258E /* Assets.xcassets in Resources */,
-				77B668F124E58A1A009D258E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B668EE24E58A1A009D258E /* ViewController.m in Sources */,
+				77B6691D24E59789009D258E /* CollectionViewController.m in Sources */,
 				77B668E824E58A1A009D258E /* AppDelegate.m in Sources */,
+				77C8C07124E6CBF6002EC28D /* ImagesMemoryStorage.m in Sources */,
+				77C8C07624E7EDF0002EC28D /* AsyncNetworking.m in Sources */,
+				77B6692C24E5ACD5009D258E /* AsyncImageViewCell.m in Sources */,
+				77C8C07C24E7FA60002EC28D /* ImagesNetworkStorage.m in Sources */,
 				77B668F924E58A1D009D258E /* main.m in Sources */,
-				77B668EB24E58A1A009D258E /* SceneDelegate.m in Sources */,
+				77C8C07924E7F684002EC28D /* WebImage.m in Sources */,
+				77B6692924E5A8E4009D258E /* AsyncImageView.m in Sources */,
+				77C8C06324E69C84002EC28D /* SwipeRightFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B6690324E58A1D009D258E /* DromTestTests.m in Sources */,
+				77C8C07E24E7FFC4002EC28D /* DromTestNetworkingTests.m in Sources */,
+				77C8C08124E81899002EC28D /* DromTestImageNetworking.m in Sources */,
+				77C8C08224E81903002EC28D /* WebImage.m in Sources */,
+				77C8C07F24E7FFDD002EC28D /* AsyncNetworking.m in Sources */,
+				77C8C08324E81903002EC28D /* ImagesNetworkStorage.m in Sources */,
+				77C8C07224E6DDF1002EC28D /* ImagesMemoryStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		77B668EF24E58A1A009D258E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77B668F024E58A1A009D258E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77B668F424E58A1D009D258E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -448,7 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DromTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -476,7 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA8PQ78LFS;
 				INFOPLIST_FILE = DromTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +584,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA8PQ78LFS;
 				INFOPLIST_FILE = DromTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

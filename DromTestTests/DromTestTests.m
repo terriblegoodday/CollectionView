@@ -7,8 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#include "ImagesRepository.h"
+#include "ImagesMemoryStorage.h"
+#include "ImagesRepositoryDelegate.h"
 
-@interface DromTestTests : XCTestCase
+@interface DromTestTests : XCTestCase <ImagesRepositoryDelegate>
 
 @end
 
@@ -22,16 +25,38 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testPhotosInMemory {
+    ImagesMemoryStorage * photosMemory = [ImagesMemoryStorage new];
+    photosMemory.delegate = self;
+    [photosMemory addImageWithUrl:@"0"];
+    [photosMemory addImageWithUrl:@"1"];
+    [photosMemory addImageWithUrl:@"2"];
+    [photosMemory addImageWithUrl:@"3"];
+    XCTAssert([photosMemory getImagesCount] == 10);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)imageDidAddAt:(NSIndexPath *)indexPath {
+    printf("✅ photoDidAddAt");
+}
+
+- (void)imageFailedToDownloadAt:(NSIndexPath *)indexPath {
+    printf("✅ photoDidFailToDownloadAt");
+}
+
+- (void)imageWasRemovedAt:(NSIndexPath *)indexPath {
+    printf("✅ photoDidRemoveAt");
+}
+
+- (void)imageDidStartDownloading:(NSIndexPath *)indexPath {
+    printf("✅ photoDidStartDownloading");
+}
+
+- (void)imageDidUpdateAt:(NSIndexPath *)indexPath {
+    printf("✅ photoDidUpdateAt");
+}
+
+- (void)repositoryDidReset {
+    printf("✅ repositoryDidReset");
 }
 
 @end
